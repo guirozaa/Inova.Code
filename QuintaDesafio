@@ -1,0 +1,14 @@
+package Desafios;
+
+import java.util.Scanner;
+
+public class QuintoDesafio {
+    public static void main(String[] args) {
+        System.out.println("Digite um número para saber qual é seu antecessor e sucessor: ");
+        Scanner entrada = new Scanner(System.in);
+
+        int numero = entrada.nextInt();
+
+        System.out.println("O seu sucessor é: " + (numero + 1) + " e o seu antecessor é: " + (numero - 1));
+    }
+}
