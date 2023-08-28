@@ -1,0 +1,8 @@
+package Desafios;
+
+public class SegundoDesafio {
+    public static void main(String[] args) {
+        double mediaAritmetica = (((7.0 + 8.0 + 9.0)/3) + ((4.0 + 5.0 + 6.0)/3))/2;
+        System.out.println("Média Aritmética é: " + mediaAritmetica);
+    }
+}
