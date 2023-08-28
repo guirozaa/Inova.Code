@@ -1,0 +1,16 @@
+package Desafios;
+
+import java.util.Scanner;
+
+public class TerceiroDesafio {
+    public static void main(String[] args) {
+        System.out.println("Informe o Saldo: ");
+
+        Scanner entrada = new Scanner(System.in);
+        double saldo = entrada.nextDouble();
+
+        double reajuste = saldo * 1.01;
+        System.out.println("O valor com reajuste é de: " + reajuste);
+        entrada.close();
+    }
+}
