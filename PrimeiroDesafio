@@ -1,0 +1,26 @@
+package Desafios;
+
+import java.util.Scanner;
+
+public class PrimeiroDesafio {
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+
+        System.out.println("Informe os anos: ");
+        int ano = entrada.nextInt();
+
+        System.out.println("Informe os meses: ");
+        int mes = entrada.nextInt();
+
+        System.out.println("Informe os dias: ");
+        int dia = entrada.nextInt();
+
+        int diasTotais = ((ano * 365)+(mes * 30)+ dia);
+
+        System.out.println("Os dias totais são: " + diasTotais);
+
+        entrada.close();
+    }
+}
