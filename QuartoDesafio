@@ -1,0 +1,16 @@
+package Desafios;
+
+import java.util.Scanner;
+
+public class QuartoDesafio {
+    public static void main(String[] args) {
+        Double salarioMinimo = 788.0;
+        System.out.println("Digite o seu salário: ");
+        Scanner entrada = new Scanner(System.in);
+        Double salario = entrada.nextDouble();
+
+        Double quantidade = (salario/salarioMinimo);
+
+        System.out.printf("Quantidade de salários mínimos no seu salário é de: %.2f ", (quantidade));
+    }
+}
